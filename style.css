@@ -1,0 +1,56 @@
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Container */
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    color: #222;
+}
+
+/* Profile Image */
+.profile-img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 20px;
+    border: 3px solid #0077ff;
+}
+
+/* Paragraphs and Lists */
+p {
+    line-height: 1.6;
+    text-align: center;
+}
+
+ul {
+    list-style-type: circle;
+    padding-left: 40px;
+}
+
+/* Links */
+a {
+    color: #0077ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
